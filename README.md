@@ -1,6 +1,9 @@
 # mevn-ts-recordatorios
 
-## Project setup
+## This application needs mongodb (in my case i have installed mongodb in local)
+[Installation for Ubuntu](https://www.mongodb.com/docs/v5.0/tutorial/install-mongodb-on-ubuntu/)
+
+## Project setup (this includes run the following code in the server folder too)
 ```
 npm install
 ```
