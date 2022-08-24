@@ -5,6 +5,7 @@ const router = Router();
 
 router.get('/tasks', async(req, res) => {
     const tasks = await Task.find()
+
     res.send(tasks);
 });
 
@@ -28,8 +29,9 @@ router.post('/tasks', async (req, res) => {
     const task = new Task({title, description})
 
     await task.save();
-
+    
     res.json(task);
+    
 });
 
 router.delete('/tasks/:id', async(req, res) => {
