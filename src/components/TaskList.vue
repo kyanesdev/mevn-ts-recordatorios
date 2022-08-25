@@ -1,5 +1,9 @@
 <template>
-  <h1>Tasklist</h1>
+  <ul>
+    <li v-for="(task,index) in tasks" v-bind:key="index" @click="this.$router.push(`/tasks/${task._id}}`)">
+      {{ task.title }}
+    </li> 
+  </ul>
 </template>
 
 <script lang="ts">
