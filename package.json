@@ -33,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/kyanesdev/mevn-ts-recordatorios/issues"
   },
-  "homepage": "https://github.com/kyanesdev/mevn-ts-recordatorios#readme"
+  "homepage": "https://github.com/kyanesdev/mevn-ts-recordatorios#readme",
+  "devDependencies": {}
 }
