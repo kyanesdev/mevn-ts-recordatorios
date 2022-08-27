@@ -1,3 +1,3 @@
 # mevn-ts-recordatorios
 
-[Link deployed](https://mevn-ts-task-app.herokuapp.com/)
+[Application Deployed](https://mevn-ts-task-app.herokuapp.com/)
