@@ -32,5 +32,18 @@
   "engines": {
     "npm": "8.18.0",
     "node": "18.7.0"
-  }
+  },
+  "description": "## This application needs mongodb (in my case i have installed mongodb in local) [Installation for Ubuntu](https://www.mongodb.com/docs/v5.0/tutorial/install-mongodb-on-ubuntu/)",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyanesdev/mevn-ts-recordatorios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyanesdev/mevn-ts-recordatorios/issues"
+  },
+  "homepage": "https://github.com/kyanesdev/mevn-ts-recordatorios#readme"
 }
