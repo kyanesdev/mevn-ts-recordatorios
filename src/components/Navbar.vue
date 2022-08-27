@@ -1,22 +1,26 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <nav>
-        <ul>
-            <li>
-                <router-link to="/tasks">tasks</router-link>
-            </li>
-            <li>
-                <router-link to="/task/new">create task</router-link>
-            </li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <router-link to="/" class="navbar-brand">MEVN-TYPESCRIPT Kevin Yanes: TaskList App</router-link>
+      <div >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/tasks">TASKS</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/task/new">CREATE TASK</router-link>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/runtime-core';
+import { defineComponent } from "@vue/runtime-core";
 export default defineComponent({
-    // eslint-disable-next-line vue/multi-word-component-names
-    name: "Navbar"
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: "Navbar",
 });
-
 </script>

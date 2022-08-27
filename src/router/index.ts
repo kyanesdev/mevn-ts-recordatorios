@@ -3,8 +3,8 @@ import { RouteRecordRaw , createRouter, createWebHistory} from "vue-router"
 const routes: RouteRecordRaw[] = [
     {
         path: "/",
-        name: "welcomes",
-        component: () => import("@/components/Welcome.vue")
+        redirect: "/tasks",
+        name: "welcome"
     },
     {
         path: "/tasks",
@@ -12,7 +12,7 @@ const routes: RouteRecordRaw[] = [
         component: () => import("@/components/TaskList.vue")
     },
     {
-        path: "/tasks/new",
+        path: "/task/new",
         name: "tasks-new",
         component: () => import("@/components/TaskForm.vue")
     },
