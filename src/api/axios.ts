@@ -1,7 +1,7 @@
 import axios, {AxiosInstance} from "axios";
 
 const axiosInstance: AxiosInstance = axios.create({
-    baseURL: "http://localhost:3000/api",
+    baseURL: "https://mevn-ts-task-app.herokuapp.com/api",
     headers: {
         'Content-Type': 'application/json',
     }
